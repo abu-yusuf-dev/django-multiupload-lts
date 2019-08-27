@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <h1 class="page-header">Django Multiple File Upload Example</h1>
+  <h1 class="page-header">For Django latest versions(>2)</h1>
+  <p class="lead">See the example live clicking in the Files menu.</p>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="span2">
+        <img src="{% static 'img/yusuf.png' %}"  alt="" class="img-rounded" height="200" width="200">
+      </div>
+      <div class="span4">
+        <blockquote>
+          <p>Abu Yusuf, <br> <b>Software Engineer</b></p>
+          <small><cite title="Source Title">Dhaka, Bangladesh  <i class="icon-map-marker"></i></cite></small>
+        </blockquote>
+        <p>
+          <i class="icon-envelope"></i> revelyusuf109@gmail.com <br>
+          <i class="icon-globe"></i> <a href="https://yusuff.dev" target="_blank">https://yusuff.dev</a> <br>
+          <i class="icon-gift"></i> August 27, 2019
+        </p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

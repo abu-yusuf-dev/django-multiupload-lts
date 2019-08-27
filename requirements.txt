@@ -1,0 +1,6 @@
+Django==2.0
+pytz==2019.2
+django_heroku
+gunicorn
+psycopg2
+psycopg2-binary
